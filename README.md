@@ -1,8 +1,10 @@
 ## Overview
 A Machine Learning-powered Flask application that predicts loan approval based on applicant details. It automates the loan decision process and provides fast, reliable predictions.
 ## Features
-- 1] Predict loan approval using ML models. 2] User-friendly web interface with applicant form.
-  3] Outputs clear approval/rejection decision with confidence. 4] Easy to extend with new ML models.
+- Predict loan approval using ML models.
+- User-friendly web interface with applicant form.
+- Outputs clear approval/rejection decision with confidence.
+- Easy to extend with new ML models.
 ## Technologies
 Python | Flask | Scikit-learn | Pandas | NumPy | HTML/CSS | Git
 -----------------------------------------------------------------------------------------------
