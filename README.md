@@ -11,9 +11,6 @@ Python | Flask | Scikit-learn | Pandas | NumPy | HTML/CSS | Git
 ## Setting Up the Project in PyCharm ##
 
 Step 1: Create Project Folder
-Navigate to: C:\Users\[your-name]\PycharmProjects\
-Replace [your-name] with your actual Windows username
-Create a new folder called loan-prediction-app
 Full path will be: C:\Users\[your-name]\PycharmProjects\loan-prediction-app\
 
 Step 2: Organize Your Files
