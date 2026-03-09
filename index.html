@@ -276,12 +276,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏦 Smart Loan Predictor</h1>
+            <h1>Smart Loan Predictor</h1>
             <p>Machine Learning Powered Loan Approval System</p>
         </div>
 
         <div class="subtitle">
-            <h3>💡 AI-Based Decision Making</h3>
+            <h3> AI-Based Decision Making</h3>
             <p>Built with Python, Flask & Scikit-learn | Computer Science Final Project</p>
         </div>
 
@@ -298,7 +298,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="married">💑 Marital Status</label>
+                        <label for="married"> Marital Status</label>
                         <select name="married" id="married" required>
                             <option value="">Select Status</option>
                             <option value="1">Married</option>
@@ -316,7 +316,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="self_employed">💼 Employment Type</label>
+                        <label for="self_employed">Employment Type</label>
                         <select name="self_employed" id="self_employed" required>
                             <option value="">Select Type</option>
                             <option value="1">Self Employed</option>
@@ -325,7 +325,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="applicantincome">💰 Applicant Income (₹)</label>
+                        <label for="applicantincome"> Applicant Income (₹)</label>
                         <input type="number" name="applicantincome" id="applicantincome"
                                placeholder="e.g., 50000" min="0" step="1000" required>
                     </div>
@@ -337,19 +337,19 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="loanamount">🏠 Loan Amount (₹ in thousands)</label>
+                        <label for="loanamount">Loan Amount (₹ in thousands)</label>
                         <input type="number" name="loanamount" id="loanamount"
                                placeholder="e.g., 150 (for ₹1.5L)" min="1" step="10" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="loan_amount_term">⏰ Loan Term (Months)</label>
+                        <label for="loan_amount_term"> Loan Term (Months)</label>
                         <input type="number" name="loan_amount_term" id="loan_amount_term"
                                placeholder="e.g., 360 (30 years)" min="12" max="480" step="12" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="credit_history">📊 Credit History</label>
+                        <label for="credit_history"> Credit History</label>
                         <select name="credit_history" id="credit_history" required>
                             <option value="">Select Credit History</option>
                             <option value="1">Good Credit History</option>
@@ -358,7 +358,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="property_area">🏘️ Property Area</label>
+                        <label for="property_area"> Property Area</label>
                         <select name="property_area" id="property_area" required>
                             <option value="">Select Area Type</option>
                             <option value="2">Urban</option>
@@ -370,24 +370,24 @@
 
                 <div class="submit-section">
                     <button type="submit" class="submit-btn">
-                        🔮 Predict Loan Status
+                         Predict Loan Status
                     </button>
                 </div>
             </form>
 
             {% if prediction %}
             <div class="result-section {{ 'approved' if '✅' in prediction else 'rejected' }}">
-                <h2>🎯 Prediction Result</h2>
+                <h2> Prediction Result</h2>
                 <div style="margin-top: 15px; font-size: 24px;">
                     {{ prediction }}
                 </div>
                 {% if '✅' in prediction %}
                 <p style="margin-top: 10px; font-size: 16px; opacity: 0.9;">
-                    🎉 Congratulations! The ML model predicts your loan will be approved!
+                     Congratulations! The ML model predicts your loan will be approved!
                 </p>
                 {% else %}
                 <p style="margin-top: 10px; font-size: 16px; opacity: 0.9;">
-                    😔 The model suggests your loan may not be approved. Consider improving your profile.
+                     The model suggests your loan may not be approved. Consider improving your profile.
                 </p>
                 {% endif %}
             </div>
@@ -397,17 +397,17 @@
         <div class="info-section">
             <div class="info-grid">
                 <div class="info-card">
-                    <h4>🤖 How It Works</h4>
+                    <h4> How It Works</h4>
                     <p>This system uses a trained Machine Learning model that analyzes 10 key factors to predict loan approval with high accuracy.</p>
                 </div>
                 <div class="info-card">
-                    <h4>📈 Model Performance</h4>
+                    <h4> Model Performance</h4>
                     <p>Our model has been trained on historical loan data and uses advanced algorithms to make predictions.</p>
                 </div>
             </div>
 
             <div class="info-card" style="text-align: center;">
-                <h4>⚠️ Important Note</h4>
+                <h4> Important Note</h4>
                 <p style="color: #e74c3c; font-weight: 600;">
                     This is a prediction tool for educational purposes only. Actual loan approval depends on bank policies and additional factors not captured in this model.
                 </p>
@@ -417,9 +417,10 @@
         <div class="footer">
             <p>🎓 Built with Python Flask & Machine Learning |
                <a href="https://github.com" target="_blank">View Code on GitHub</a> |
-               CS Project 2024 ❤️</p>
+               CS Project 2024 </p>
         </div>
     </div>
 </body>
 </html>
+
 
