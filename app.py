@@ -26,7 +26,7 @@ def predict():
         ]
 
         prediction = model.predict([data])
-        result = 'Approved ✅' if prediction[0] == 1 else 'Rejected ❌'
+        result = 'Approved ' if prediction[0] == 1 else 'Rejected '
         return render_template('index.html', prediction=result)
 
     except Exception as e:
@@ -34,3 +34,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
